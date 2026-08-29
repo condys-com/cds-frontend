@@ -1,4 +1,17 @@
+<template>
+  <div id="app">
+    <PrimeList />
+  </div>
+</template>
+
 <script setup lang="ts">
+import PrimeList from '@/components/PrimeList.vue';
+</script>
+
+<style>
+</style>
+
+<!-- <script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
 </script>
@@ -44,4 +57,4 @@ header {
     flex-wrap: wrap;
   }
 }
-</style>
+</style> -->
